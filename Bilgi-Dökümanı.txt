@@ -1,0 +1,34 @@
+Ben bu projede eğitim biigilerimi , hobilerimi , ilgi alanlarımı ve memleketim gibi beni tanıtan özellikleri içeren bir web sitesi tasarlayacağım. Bu özellikler ayrı sayfalarda olucak.
+
+HAKKINDA SAYFASI ;
+-Hobiler
+-etkinlikler
+-fobiler 
+gibi kişi hakkında bilgi veren kişiyi tanıtan özellikler kullanacağım
+
+ÖZGEÇMİŞ SAYFASI ;
+- Eğitim bilgilerimi içeren cv niteliğinde samantic taglarin de olduğu bir özgeçmiş sayfası tasarlayacağım
+
+ŞEHRİM SAYFASI ;
+- Memleketime ait bilgiler yer alıcak. En az 4 resimden oluşan bir slider kullanacağım. Ve içeriklere ait kısa kısa bilgiler olması gerekiyor ve bu bilgiler site içerisinde yer alıcak.
+
+MİRASIMIZ SAYFASI ;
+-Şehre ait kültürel bir mirası html elemanlaı kullanarak tanıtacağım
+
+İLGİ ALANLARIM SAYFASI;
+-İlgi alanlarım çerçevesinde api servisinden veri alıp göstereceğim.
+
+LOGİN SAYFASI ;
+-Kullanıcı ve şifreyi bir php sayfasına post edip bilgileri kontrol ettireceğim. Eğer doğru ise Hoşgeldiniz yazısı ekrana çıkıcak. Eğer değilse tekrardan giriş isteyecek.
+
+İLETİŞİM SAYFASI ;
+-İletişim sayfası tüm form elemanlarını içermeli, formun tüm elamanlarının elemanın özelliğine 
+göre seçim yada veri girişi yapılacak şekilde gönderilmesi sağlanmalıdır
+-Form, temizle ve gönder butonları içermelidir
+-Gönderilen form elemanlarına ait bilgiler başka bir sayfada görüntülenmelidir.
+
+
+
+Site tasarımı olarak Boostrap içeren responsive bir yapı kullanacağım
+
+iletişim formundaki kullandığım elemanları ise javascript kullanarak denetleyeceğim.
