@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+}
+
+#indexmain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/ufo-1265186.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-content {
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+.main-content h2 {
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 7px;
+    background: rgb(0, 255, 183);
+    margin: 5px auto;
+    border-radius: 5px;
+}
+.main-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 10px 17px;
+    background: aqua;
+    border-radius: 35px;
+    color: rgb(36, 0, 102);
+    text-decoration: none;
+    
+}
+
