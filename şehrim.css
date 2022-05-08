@@ -5,7 +5,7 @@ h1{
 }
 
 body {
-	background: #f1fbff;
+	background: #ffffff;
 }
 .section-padding {
 	padding: 100px 0;
@@ -43,6 +43,18 @@ body {
 .container{
   margin: 200px;
 }
+.portfolio .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card {
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.services .card-body i {
+	font-size: 50px;
+}
+.team .card-body i {
+	font-size: 20px;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -56,6 +68,10 @@ body {
 	.img-area img {
 		width: 100%;
 	}
+	.card {
+		margin-bottom: 30px;
+	}
+	
 }
 @media only screen and (max-width: 767px) {
 	
@@ -73,6 +89,9 @@ body {
 		width: 100%;
 		line-height: 1.6;
 		font-size: 12px;
+	}
+	.card {
+		margin-bottom: 30px;
 	}
 
 }

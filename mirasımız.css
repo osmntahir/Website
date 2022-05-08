@@ -1,0 +1,21 @@
+#resim{
+width: 75%;
+height: 68%;
+margin-left: 25px;
+}
+.card-title{
+    margin-top: 70px;
+}
+.card-text{
+    margin-top: 35px;
+}
+#video{
+    width: 65%;
+    height: 65%;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+#videobaşlık{
+    margin-left: 25px;
+    margin-top: 130px;
+}
