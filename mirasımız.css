@@ -12,10 +12,28 @@ margin-left: 25px;
 #video{
     width: 65%;
     height: 65%;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 25px;
 }
 #videobaşlık{
     margin-left: 25px;
-    margin-top: 130px;
+    margin-top: 100px;
+    
+}
+#tablo{
+    margin-left: 25px;
+    background-color: rgb(212, 203, 203);
+    width: 75%;
+    margin-top: 50px;
+    
+}
+label{
+    color: rgb(0, 0, 0);
+    padding-top:20px ;
+    padding-bottom:20px ;
+    
+}
+span{
+    color: rgb(75, 4, 4);
+  
 }

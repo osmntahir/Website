@@ -11,7 +11,7 @@ body {
 	padding: 100px 0;
 }
 .carousel-item {
-	height: 100vh;
+	height: 120vh;
 	min-height: 300px;
 }
 .carousel-caption {
@@ -37,7 +37,7 @@ body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.2);
 	z-index: 1;
 }
 .container{
