@@ -48,3 +48,44 @@ section {
     max-width: 300px;
     margin: 50px;
 }
+
+.nav-link{
+    display: inline-block;
+    padding-bottom:0.25rem;
+    position: relative; 
+    
+}
+.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color:aqua ;
+    transition:width 0.5s ease-out;
+}
+.nav-link:hover::before{
+    width: 100%;
+}
+.navbar-brand{
+    display: inline-block;
+    padding-bottom:0.25rem;
+    position: relative; 
+}
+.navbar-brand::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color:aqua ;
+    transition:width 0.5s ease-out;
+}
+.navbar-brand:hover::before{
+    width: 100%;
+}
+
+
+	

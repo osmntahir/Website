@@ -39,12 +39,48 @@ a{
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.ctn{
-    padding: 10px 17px;
-    background: aqua;
-    border-radius: 35px;
-    color: rgb(36, 0, 102);
-    text-decoration: none;
+
+.nav-link{
+    display: inline-block;
+    padding-bottom:0.25rem;
+    position: relative; 
     
 }
-
+.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color:aqua ;
+    transition:width 0.5s ease-out;
+}
+.nav-link:hover::before{
+    width: 100%;
+}
+.navbar-brand{
+    display: inline-block;
+    padding-bottom:0.25rem;
+    position: relative; 
+}
+.navbar-brand::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color:aqua ;
+    transition:width 0.5s ease-out;
+}
+.navbar-brand:hover::before{
+    width: 100%;
+}
+.ctn{
+    padding: 8px 15px;
+    background:aqua;
+    border-radius: 31px;
+    color: rgb(0, 0, 68);
+    text-decoration: none;
+}
