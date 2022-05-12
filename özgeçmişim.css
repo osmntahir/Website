@@ -11,7 +11,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color:rgb(215, 85, 85) ;
+    background-color:aqua ;
     transition:width 0.5s ease-out;
 }
 .nav-link:hover::before{
@@ -29,12 +29,13 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color:rgb(235, 85, 85) ;
+    background-color:aqua ;
     transition:width 0.5s ease-out;
 }
 .navbar-brand:hover::before{
     width: 100%;
 }
+
 
 #resim{
     margin-left: 30px;
@@ -234,6 +235,157 @@ footer{
         left: -10%;
     }
 }
+
+
+#yüzde40{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde40::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 40px;
+    max-width: 40%;
+    width: 40%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+#yüzde75{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde75::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 75px;
+    max-width: 100px;
+    width: 75%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+#yüzde67{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde67::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 67px;
+    max-width: 100px;
+    width: 67%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+#yüzde87{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde87::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 87px;
+    max-width: 100px;
+    width: 87%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+#yüzde75{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde75::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 75px;
+    max-width: 100px;
+    width: 75%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+
+#yüzde95{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde95::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 95px;
+    max-width: 100px;
+    width: 95%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+#yüzde10{
+    display: inline-block;
+    padding-bottom:0.80rem;
+    position: relative; 
+    margin-right: 50px;
+    
+}
+#yüzde10::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    bottom: 0;
+    margin-right: 10px;
+    min-width: 10px;
+    max-width: 100px;
+    width: 10%;
+    height: 8px;
+    background-color:rgb(4, 141, 141) ;
+    
+}
+
 
 
 

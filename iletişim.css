@@ -35,3 +35,21 @@
 .navbar-brand:hover::before{
     width: 100%;
 }
+
+#formelemanları{
+    margin-left: 9%;
+    margin-top: 40px;
+    margin-right: 7%;
+    margin-bottom: 7%;
+}
+#butonlar{
+    margin-top: 25px;
+    margin-left: 15%;
+    
+}
+#temizle{
+    margin-left: 25px;
+}
+#yorum{
+    max-width: 800px;
+}

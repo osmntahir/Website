@@ -35,3 +35,22 @@
 .navbar-brand:hover::before{
     width: 100%;
 }
+
+.login-form{
+    margin-top: 12%;
+    max-width: 400px;
+    margin-right: 10%;
+    margin-left: 20%;
+   
+   
+}
+#resim{
+    margin-left: 85px;
+}
+
+main{
+    min-height: 110vh;
+    background-color: white;
+    
+   
+}
