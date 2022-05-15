@@ -41,6 +41,7 @@
     max-width: 400px;
     margin-right: 10%;
     margin-left: 20%;
+    margin-bottom: 20%;
    
    
 }
@@ -49,7 +50,7 @@
 }
 
 main{
-    min-height: 110vh;
+   
     background-color: white;
     
    
